@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    height: 300px;
+}
+
+#lila {
+    background-color: purple;
+    flex: 1;
+}
+
+#sarga {
+    background-color: yellow;
+    flex: 2;
+}
+
+#zold {
+    background-color: green;
+    flex: 1;
+}
