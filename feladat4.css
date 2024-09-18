@@ -1,0 +1,14 @@
+.container {
+    height: 400px;
+    display: flex; 
+    background-color: yellow;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container li {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    list-style-type: none;
+}
