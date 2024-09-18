@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWars Pontszámláló</title>
+    <link rel="stylesheet" href="feladat6.css">
+    <script href="feladat6.js"></script>
+</head>
+<body>
+
+<nav>
+    <a href="#" onclick="showSummary()">Összesített Pontok és Rank</a>
+    <a href="#" onclick="showLanguages()">Nyelvek Szerinti Pontok és Rank</a>
+</nav>
+
+<h1>CodeWars Pontszámláló</h1>
+<input type="text" id="username" placeholder="Írd be a felhasználónevet">
+<button onclick="fetchUserData()">Keresés</button>
+
+<div id="userInfo"></div>
+<div id="error" style="color: red;"></div>
+
+</body>
+</html>
