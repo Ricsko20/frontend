@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+}
+
+form {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+#jogsi-list, #nem-jogsi-list {
+    text-align: center;
+}

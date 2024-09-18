@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feladat2.css">
+    <script src="feladat2.js" defer></script>
+    <title>Jogosítvány</title>
+</head>
+<body>
+    <h1>Jogosítvány Form</h1>
+    <form id="dataForm">
+        <label for="vnev">Vezetéknév: </label><br>
+        <input type="text" id="vnev" name="vnev"><br><br>
+        <label for="knev">Keresztnév: </label><br>
+        <input type="text" id="knev" name="knev"><br><br>
+        <label for="szam">Kedvenc szám: </label><br>
+        <input type="number" id="szam" name="szam"><br><br>
+        <label for="jogsi">Jogosítvány: </label><br>
+        <input type="text" name="jogsi" id="jogsi"><br><br>
+        <button type="button" onclick="adatbeolvasas()">Adatbeolvasás</button>
+        <button type="button" onclick="vanJogsi()">Jogsisok</button>
+        <button type="button" onclick="nincsJogsi()">Nem jogsisok</button>
+    </form>
+    <div id="jogsi-list">
+        <h2>Jogsisok:</h2>
+        <ul id="jogsi-ul"></ul>
+    </div>
+    <div id="nem-jogsi-list">
+        <h2>Nem jogsisok:</h2>
+        <ul id="nem-jogsi-ul"></ul>
+    </div>
+</body>
+</html>
